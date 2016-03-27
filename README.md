@@ -12,7 +12,8 @@ while play == True:
 	if tf == "y":
 		print "How much do you want to add by?"
 		y = int(raw_input("> "))
-		arithmetic.add_Num(y)
+# Here is my problem
+		x.add_Num(y)
 		
 	else:
 		print "Terminating program...\n\n"
@@ -30,4 +31,4 @@ class arithmetic(object):
 		return self.number
 	
 x = arithmetic()
-print x.number
+
