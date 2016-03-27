@@ -12,7 +12,6 @@ while play == True:
 	if tf == "y":
 		print "How much do you want to add by?"
 		y = int(raw_input("> "))
-# Here is my problem
 		x.add_Num(y)
 		
 	else:
