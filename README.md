@@ -1,12 +1,24 @@
-library = {1:"toy", 2:"box", 3:"name", 4:example()}
+# Classes and Dicts Module
 
-class example(object):
-	stuff = "nothing"
-		
-def makeProxy(x):
-	proxy = library[x]
-	return proxy
-	
-for i in library:
-	print makeProxy(i)
-	print
+Have classes for keywords
+
+Have classes for data types
+
+Have classes for string escape sequences
+
+Have classes for string formats
+
+Have classes for operators
+
+Dict for keywords
+
+Dict for data types
+
+Dict for string escape sequences
+
+Dict for string formats
+
+Dict for operators
+
+# Functions to select, get, and organize/randomize classes
+
