@@ -1,33 +1,19 @@
-# main file
-import test002
+class Song(object):
 
-play = True
+    def __init__(self, lyrics):
+        self.lyrics = lyrics
 
+    def sing_me_a_song(self):
+        for line in self.lyrics:
+            print line
 
-while play == True:
+happy_bday = Song(["Happy birthday to you",
+                   "I don't want to get sued",
+                   "So I'll stop right there"])
 
-	print "Do you want to add a number?"
-	tf = raw_input("y/n: ")
-	
-	if tf == "y":
-		print "How much do you want to add by?"
-		y = int(raw_input("> "))
-		x.add_Num(y)
-		
-	else:
-		print "Terminating program...\n\n"
-		play = False
-		
-------------------------------------------
-# This is test002
-		
-class arithmetic(object):
-	def __init__(self):
-		self.number = 00
-		
-	def add_Num(self, num):
-		self.number += num
-		return self.number
-	
-x = arithmetic()
+bulls_on_parade = Song(["They rally around tha family",
+                        "With pockets full of shells"])
 
+happy_bday.sing_me_a_song()
+
+bulls_on_parade.sing_me_a_song()
